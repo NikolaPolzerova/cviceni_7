@@ -26,7 +26,7 @@ MaticePrekryvu = function(sek){
       x <- length(sek1)
       y <- length(sek2)
       
-      #porovnani
+      #porovnani - pouze konce, nejdelsi stejna cast.. jak???
       for (j in 1:min(x,y)){
         if (sek1[j] == sek2[j]){
           shoda <- shoda + 1
